@@ -1,37 +1,455 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru" dir="ltr">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta charset="utf-8">
+    <title>Last.fm</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"/>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <body class="app">
+      <header class="header">
+        <div class="header_player">
+          <img class="player_img" src="player.png" alt="" />
+        </div>
+        <!-- <div class="header_link">
+            <a href="/" class=" link">last.fm</a>
+        </div> -->
+        <div class="logo"><img src="logo.png" alt="" /></div>
+        <div class="header__nav">
+          <a href="./search.html"><img src="search_logo.png" alt="" /></a>
+          <a href="/" class="link">Live</a>
+          <a href="/" class="link">Music</a>
+          <a href="/" class="link">Charts</a>
+          <a href="/" class="link">More...</a>
+        </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      </header>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      <main>
+        <h1 class="main_header main_header_one">Music</h1>
+
+        <div class="body_section">
+          <h2 class="main_header main_header_two">Hot right now</h2>
+          <div class="underline"></div>
+          <ol>
+            <div class="hot-right-now">
+            <li>
+              <div class="">
+                <img src="teylor_swift.jpg" width="120" height="120" alt="Teylor Swift" class="round"  >
+                <h3>Taylor Swift</h3>
+                <section>
+                  <ul>
+                    <li><a href="/" class="tag_link">pop </a></li>
+                    <li><a href="/" class="tag_link">country </a></li>
+                    <li><a href="/" class="tag_link">female vocalists </a></li>
+                  </ul>
+                </section>
+              </div>
+            </li>
+            <li>
+              <img src="kanye-west_28.jpg" width="120" height="120" alt="Kanye West" class="round">
+              <h3>Kanye West</h3>
+              <section>
+                <ul>
+                  <li><a href="/" class="tag_link">hip-hop</a></li>
+                  <li><a href="/" class="tag_link">rap</a></li>
+                  <li><a href="/" class="tag_link">hip hop</a></li>
+                </ul>
+              </section>
+            </li>
+            <li>
+              <div class="">
+                <img src="teylor_swift.jpg" width="120" height="120" alt="Teylor Swift" class="round">
+                <h3>Taylor Swift</h3>
+                <section>
+                  <ul>
+                    <li><a href="/" class="tag_link">pop </a></li>
+                    <li><a href="/" class="tag_link">country </a></li>
+                    <li><a href="/" class="tag_link">female vocalists </a></li>
+                  </ul>
+                </section>
+              </div>
+            </li>
+            <li>
+              <img src="kanye-west_28.jpg" width="120" height="120" alt="Kanye West" class="round">
+              <h3>Kanye West</h3>
+              <section>
+                <ul>
+                  <li><a href="/" class="tag_link">hip-hop</a></li>
+                  <li><a href="/" class="tag_link">rap</a></li>
+                  <li><a href="/" class="tag_link">hip hop</a></li>
+                </ul>
+              </section>
+            </li>
+            <li>
+              <div class="">
+                <img src="teylor_swift.jpg" width="120" height="120" alt="Teylor Swift" class="round">
+                <h3>Taylor Swift</h3>
+                <section>
+                  <ul>
+                    <li><a href="/" class="tag_link">pop </a></li>
+                    <li><a href="/" class="tag_link">country </a></li>
+                    <li><a href="/" class="tag_link">female vocalists </a></li>
+                  </ul>
+                </section>
+              </div>
+            </li>
+            <li>
+              <img src="kanye-west_28.jpg" width="120" height="120" alt="Kanye West" class="round">
+              <h3>Kanye West</h3>
+              <section>
+                <ul>
+                  <li><a href="/" class="tag_link">hip-hop</a></li>
+                  <li><a href="/" class="tag_link">rap</a></li>
+                  <li><a href="/" class="tag_link">hip hop</a></li>
+                </ul>
+              </section>
+            </li>
+            </div>
+
+            <div class="hot-right-now div_2">
+            <li>
+              <div class="">
+                <img src="teylor_swift.jpg" width="120" height="120" alt="Teylor Swift" class="round">
+                <h3>Taylor Swift</h3>
+                <section>
+                  <ul>
+                    <li><a href="/" class="tag_link">pop </a></li>
+                    <li><a href="/" class="tag_link">country </a></li>
+                    <li><a href="/" class="tag_link">female vocalists </a></li>
+                  </ul>
+                </section>
+              </div>
+            </li>
+            <li>
+              <img src="kanye-west_28.jpg" width="120" height="120" alt="Kanye West" class="round">
+              <h3>Kanye West</h3>
+              <section>
+                <ul>
+                  <li><a href="/" class="tag_link">hip-hop</a></li>
+                  <li><a href="/" class="tag_link">rap</a></li>
+                  <li><a href="/" class="tag_link">hip hop</a></li>
+                </ul>
+              </section>
+            </li>
+            <li>
+              <div class="">
+                <img src="teylor_swift.jpg" width="120" height="120" alt="Teylor Swift" class="round">
+                <h3>Taylor Swift</h3>
+                <section>
+                  <ul>
+                    <li><a href="/" class="tag_link">pop </a></li>
+                    <li><a href="/" class="tag_link">country </a></li>
+                    <li><a href="/" class="tag_link">female vocalists </a></li>
+                  </ul>
+                </section>
+              </div>
+            </li>
+            <li>
+              <img src="kanye-west_28.jpg" width="120" height="120" alt="Kanye West" class="round">
+              <h3>Kanye West</h3>
+              <section>
+                <ul>
+                  <li><a href="/" class="tag_link">hip-hop</a></li>
+                  <li><a href="/" class="tag_link">rap</a></li>
+                  <li><a href="/" class="tag_link">hip hop</a></li>
+                </ul>
+              </section>
+            </li>
+            <li>
+              <div class="">
+                <img src="teylor_swift.jpg" width="120" height="120" alt="Teylor Swift" class="round">
+                <h3>Taylor Swift</h3>
+                <section>
+                  <ul>
+                    <li><a href="/" class="tag_link">pop </a></li>
+                    <li><a href="/" class="tag_link">country </a></li>
+                    <li><a href="/" class="tag_link">female vocalists </a></li>
+                  </ul>
+                </section>
+              </div>
+            </li>
+            <li>
+              <img src="kanye-west_28.jpg" width="120" height="120" alt="Kanye West" class="round">
+              <h3>Kanye West</h3>
+              <section>
+                <ul>
+                  <li><a href="/" class="tag_link">hip-hop</a></li>
+                  <li><a href="/" class="tag_link">rap</a></li>
+                  <li><a href="/" class="tag_link">hip hop</a></li>
+                </ul>
+              </section>
+            </li>
+            </div>
+          </ol>
+        </div>
+        <div class="body_section">
+          <h2 class="main_header main_header_two">Popular tracks</h2>
+          <div class="underline"></div>
+          <ol class="coulumn_ol">
+            <div class="">
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+            </div>
+            <div class="">
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+            </div>
+            <div class="">
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+              <li class="row_li">
+                <img src="coldplay_my_universe.jpg" height="70" width="70" alt="Coldplay">
+                <div class="tracks_li">
+                  <h3>My Universe</h3>
+                  <p>Coldplay</p>
+                  <section>
+                    <ul>
+                      <li><a href="/" class="tag_link">pop</a></li>
+                      <li><a href="/" class="tag_link">k-pop</a></li>
+                      <li><a href="/" class="tag_link">bts</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </li>
+            </div>
+
+          </ol>
+        </div>
+
+      </main>
+
+      <footer class="footer">
+        <div class="footer_one">
+        <div class="footer__nav link">
+            <span>COMPANY</span><br>
+            <a href="/" class="footer_link link">About Last.fm</a>
+            <a href="/"  class="footer_link link">Contact Us</a>
+            <a href="/"  class="footer_link link">Jobs</a>
+          </div>
+          <div class="footer__nav link">
+            <span>HELP</span><br>
+            <a href="/"  class="footer_link link">Track My Music</a>
+            <a href="/"  class="footer_link link">Community Support</a>
+            <a href="/"  class="footer_link link">Community Guidelines</a>
+            <a href="/"  class="footer_link link">Help</a>
+          </div>
+          <div class="footer__nav link">
+            <span>GOODIES</span><br>
+            <a href="/"  class="footer_link link">Track My Music</a>
+            <a href="/"  class="footer_link link">Developer API</a>
+            <a href="/"  class="footer_link link">Free Music Downloads</a>
+            <a href="/"  class="footer_link link">Merchandise</a>
+          </div>
+          <div class="footer__nav link">
+            <span>ACCOUNT</span><br>
+            <a href="/"  class="footer_link link">Sign Up</a>
+            <a href="/"  class="footer_link link">Log In</a>
+            <a href="/"  class="footer_link link">Subscribe</a>
+          </div>
+          <div class="footer__nav link">
+            <span>FOLLOW US</span><br>
+            <a href="/"  class="footer_link link">Facebook</a>
+            <a href="/"  class="footer_link link">Twitter</a>
+            <a href="/"  class="footer_link link">Instagram</a>
+            <a href="/"  class="footer_link link">YouTube</a>
+          </div>
+        </div>
+        <div class="">
+
+        </div>
+
+      </footer>
   </body>
 </html>
